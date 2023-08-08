@@ -1,0 +1,126 @@
+.page {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.logo__pic {
+    width: 113px;
+    height: 24px;
+    object-fit: contain;
+}
+.header {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(216, 210, 210, 0.1);
+}
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.link_header_menu {
+    position: absolute;
+    color: #444;
+    font-size: 14px;
+    font-family: 'Montserrat600', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    position: relative;
+}
+.link_header_menu:hover {
+    color: #00B7FF;
+}
+.link_header_menu:active {
+    color: #00A2E1
+}
+.link_header_menu:focus {
+    border: 2px dotted red;
+}
+/* ------------------------------Block2----------------------------------- */
+
+
+.section__block2 {
+    background: url(../images/setka2.png) no-repeat top / cover, url(/images/fon.png) no-repeat top / cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 986px;
+    
+}   
+.title__block2 {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 77px;
+    color: #2A2A2A;
+    font-size: 68px;
+    font-family: 'Montserrat700', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+    width: 470px;
+    z-index: 2;
+}
+.title_text_block2 {
+    margin: 0 auto;
+    position: relative;
+    width: 328px;
+    height: 42px;
+    top: 100px;
+    text-align: center;
+    font-family: 'Montserrat500', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    z-index: 2;
+    
+}
+.block2__pic1 {
+    position: absolute;
+    max-width: 1300px;
+    min-height: 1445px;
+}
+.block2__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #EBE7E6;
+}
+.block2__pic2 {
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 560px;
+    margin-left: -900px;
+    z-index: 2;
+    max-width: 310px;
+    min-height: 420px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.title2__block2 {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-family: 'Montserrat-Medium500', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.lamp_picture_text {
+    padding: 20px;
+    flex-direction: column;
+    color: #A4A4A4;
+    font-size: 17px;
+    font-family: 'Montserrat-Medium500', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
